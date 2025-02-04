@@ -1,0 +1,1190 @@
+<!DOCTYPE html>
+<!--[if lt IE 10]> <html  lang="en" class="iex"> <![endif]-->
+<!--[if (gt IE 10)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Content boxes | Components | HTWF</title>
+    <meta name="description" content="HTML5/CSS3 template components for Framework Y">
+    <script src="../../../HTWF/scripts/jquery.min.js"></script>
+    <link rel="stylesheet" href="../../../HTWF/scripts/bootstrap/css/bootstrap.css">
+    <script src="../../../HTWF/scripts/script.js"></script>
+    <link rel="stylesheet" href="../../../HTWF/style.css">
+    <link rel="stylesheet" href="../../../HTWF/css/content-box.css">
+    <link rel="stylesheet" href="../../../HTWF/css/components.css">
+    <link rel="stylesheet" href='../../../HTWF/scripts/php/contact-form.css'>
+    <link rel="icon" href="../../../HTWF/favicon.png">
+</head>
+<body>
+    <div id="preloader"></div>
+    <header class="fixed-top" data-menu-anima="fade-in">
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="navbar navbar-main">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <a class="navbar-brand" href="../../../HTWF/index.html"><img src="../../images/logo.png" alt="logo" /></a>
+                    </div>
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav mega-menu-fullwidth">
+                            <li class="dropdown mega-dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Pages <span class="caret"></span></a>
+                                <div class="mega-menu dropdown-menu multi-level row">
+                                    <div class="col">
+                                        <h5>Blog</h5>
+                                        <ul class="fa-ul text-s">
+                                            <li><i class="fa-li fa fa-newspaper-o"></i> <a href="../../../HTWF/pages/blog/template-archive-blog-1.html">Blog archive 1</a></li>
+                                            <li><i class="fa-li fa fa-newspaper-o"></i> <a href="../../../HTWF/pages/blog/template-archive-blog-2.html">Blog archive 2</a></li>
+                                            <li><i class="fa-li fa fa-newspaper-o"></i> <a href="../../../HTWF/pages/blog/template-archive-blog-3.html">Blog archive 3</a></li>
+                                            <li><i class="fa-li fa fa-newspaper-o"></i> <a href="../../../HTWF/pages/blog/template-archive-blog-social.html">Blog archive social</a></li>
+                                            <li><i class="fa-li fa fa-newspaper-o"></i> <a href="../../../HTWF/pages/blog/template-archive-blog-grid.html">Blog grid</a></li>
+                                            <li><i class="fa-li fa fa-newspaper-o"></i> <a href="../../../HTWF/pages/blog/template-archive-blog-masonry.html">Blog masonry</a></li>
+                                            <li role="separator" class="divider"></li>
+                                            <li><i class="fa-li fa fa-newspaper-o"></i> <a href="../../../HTWF/pages/blog/template-single-post-1.html">Post single 1</a></li>
+                                            <li><i class="fa-li fa fa-newspaper-o"></i> <a href="../../../HTWF/pages/blog/template-single-post-2.html">Post single 2</a></li>
+                                            <li><i class="fa-li fa fa-newspaper-o"></i> <a href="../../../HTWF/pages/blog/template-single-post-3.html">Post single 3</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col">
+                                        <h5>Portfolio</h5>
+                                        <ul class="fa-ul text-s">
+                                            <li><i class="fa-li fa fa-file-text-o"></i> <a href="../../../HTWF/pages/portfolio/template-archive-portfolio-1.html">Portfolio archive 1</a></li>
+                                            <li><i class="fa-li fa fa-file-text-o"></i> <a href="../../../HTWF/pages/portfolio/template-archive-portfolio-2.html">Portfolio archive 2</a></li>
+                                            <li role="separator" class="divider"></li>
+                                            <li><i class="fa-li fa fa-file-text-o"></i> <a href="../../../HTWF/pages/portfolio/template-single-portfolio-1.html">Portfolio single 1</a></li>
+                                            <li><i class="fa-li fa fa-file-text-o"></i> <a href="../../../HTWF/pages/portfolio/template-single-portfolio-2.html">Portfolio single 2</a></li>
+                                            <li><i class="fa-li fa fa-file-text-o"></i> <a href="../../../HTWF/pages/portfolio/template-single-portfolio-3.html">Portfolio single 3</a></li>
+                                            <li><i class="fa-li fa fa-file-text-o"></i> <a href="../../../HTWF/pages/portfolio/template-single-portfolio-4.html">Portfolio single 4</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col">
+                                        <h5>Gallery</h5>
+                                        <ul class="fa-ul text-s">
+                                            <li><i class="fa-li fa fa-image"></i> <a href="../../../HTWF/pages/gallery/template-gallery-masonry-2-cols.html">Gallery masonry - 2 cols</a></li>
+                                            <li><i class="fa-li fa fa-image"></i> <a href="../../../HTWF/pages/gallery/template-gallery-masonry-3-cols.html">Gallery masonry - 3 cols</a></li>
+                                            <li><i class="fa-li fa fa-image"></i> <a href="../../../HTWF/pages/gallery/template-gallery-masonry-4-cols.html">Gallery masonry - 4 cols</a></li>
+                                            <li><i class="fa-li fa fa-image"></i> <a href="../../../HTWF/pages/gallery/template-gallery-grid-2-cols.html">Gallery grid - 2 cols</a></li>
+                                            <li><i class="fa-li fa fa-image"></i> <a href="../../../HTWF/pages/gallery/template-gallery-grid-3-cols.html">Gallery grid - 3 cols</a></li>
+                                            <li><i class="fa-li fa fa-image"></i> <a href="../../../HTWF/pages/gallery/template-gallery-grid-4-cols.html">Gallery grid - 4 cols</a></li>
+                                            <li role="separator" class="divider"></li>
+                                            <li><i class="fa-li fa fa-image"></i> <a href="../../../HTWF/pages/gallery/template-gallery-album-grid.html">Gallery album grid</a></li>
+                                            <li><i class="fa-li fa fa-image"></i> <a href="../../../HTWF/pages/gallery/template-gallery-album-masonry.html">Gallery album masonry</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col">
+                                        <h5>Others</h5>
+                                        <ul class="fa-ul text-s">
+                                            <li><i class="fa-li fa fa-file-o"></i> <a href="../../../HTWF/pages/contacts/template-contacts-1.html">Contacts 1</a></li>
+                                            <li><i class="fa-li fa fa-file-o"></i> <a href="../../../HTWF/pages/contacts/template-contacts-2.html">Contacts 2</a></li>
+                                            <li><i class="fa-li fa fa-file-o"></i> <a href="../../../HTWF/pages/onepage/template-onepage-1.html">Onepage 1</a></li>
+                                            <li><i class="fa-li fa fa-file-o"></i> <a href="../../../HTWF/pages/onepage/template-onepage-2.html">Onepage 2</a></li>
+                                            <li><i class="fa-li fa fa-file-o"></i> <a href="../../../HTWF/pages/others/faq.html">Faq</a></li>
+                                            <li><i class="fa-li fa fa-file-o"></i> <a href="../../../HTWF/pages/others/coming-soon.html">Coming soon</a></li>
+                                            <li><i class="fa-li fa fa-file-o"></i> <a href="../../../HTWF/pages/others/404.html">404 Page not found</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="dropdown mega-dropdown mega-tabs">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Features <span class="caret"></span></a>
+                                <div class="mega-menu dropdown-menu multi-level row">
+                                    <div class="tab-box" data-tab-anima="fade-bottom">
+                                        <ul class="nav nav-tabs">
+                                            <li class="active"><a href="#">Titles</a></li>
+                                            <li><a href="#">Headers</a></li>
+                                            <li><a href="#">Components</a></li>
+                                            <li><a href="#">Containers</a></li>
+                                        </ul>
+                                        <div class="panel active">
+                                            <div class="col">
+                                                <h5>Image background</h5>
+                                                <ul class="fa-ul text-s">
+                                                    <li><i class="fa-li fa fa-photo"></i> <a href="../../../HTWF/pages/features/titles/title-image.html">Image background</a></li>
+                                                    <li><i class="fa-li fa fa-photo"></i> <a href="../../../HTWF/pages/features/titles/title-image-fullscreen.html">Image full-screen</a></li>
+                                                    <li><i class="fa-li fa fa-photo"></i> <a href="../../../HTWF/pages/features/titles/title-image-fullscreen-parallax.html">Image full-screen parallax</a></li>
+                                                    <li><i class="fa-li fa fa-photo"></i> <a href="../../../HTWF/pages/features/titles/title-image-parallax.html">Image parallax</a></li>
+                                                    <li><i class="fa-li fa fa-photo"></i> <a href="../../../HTWF/pages/features/titles/title-image-parallax-ken-burn.html">Image parallax ken-burn</a></li>
+                                                </ul>
+                                                <hr class="space xs">
+                                                <h5>Base titles</h5>
+                                                <ul class="fa-ul text-s">
+                                                    <li><i class="fa-li fa fa-dot-circle-o"></i> <a href="../../../HTWF/pages/features/titles/title-base-1.html">Title base 1</a></li>
+                                                    <li><i class="fa-li fa fa-dot-circle-o"></i> <a href="../../../HTWF/pages/features/titles/title-base-2.html">Title base 2</a></li>
+                                                    <li><i class="fa-li fa fa-dot-circle-o"></i> <a href="../../../HTWF/pages/features/titles/title-bootstrap.html">Title bootstrap</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col">
+                                                <h5>Video background</h5>
+                                                <ul class="fa-ul text-s">
+                                                    <li><i class="fa-li fa fa-film"></i> <a href="../../../HTWF/pages/features/titles/title-video-mp4.html">Video background MP4</a></li>
+                                                    <li><i class="fa-li fa fa-film"></i> <a href="../../../HTWF/pages/features/titles/title-video-youtube.html">Video background Youtube</a></li>
+                                                    <li><i class="fa-li fa fa-film"></i> <a href="../../../HTWF/pages/features/titles/title-video-fullscreen.html">Video full-screen</a></li>
+                                                    <li><i class="fa-li fa fa-film"></i> <a href="../../../HTWF/pages/features/titles/title-video-fullscreen-parallax.html">Video full-screen parallax</a></li>
+                                                    <li><i class="fa-li fa fa-film"></i> <a href="../../../HTWF/pages/features/titles/title-video-parallax.html">Video parallax</a></li>
+                                                </ul>
+                                                <hr class="space xs">
+                                                <h5>Animation background</h5>
+                                                <ul class="fa-ul text-s">
+                                                    <li><i class="fa-li fa fa-leaf"></i> <a href="../../../HTWF/pages/features/titles/title-animation.html">Animation background</a></li>
+                                                    <li><i class="fa-li fa fa-leaf"></i> <a href="../../../HTWF/pages/features/titles/title-animation-parallax.html">Animation background parallax</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col">
+                                                <h5>Slider background</h5>
+                                                <ul class="fa-ul text-s">
+                                                    <li><i class="fa-li fa fa-sliders"></i> <a href="../../../HTWF/pages/features/titles/title-slider.html">Slider background</a></li>
+                                                    <li><i class="fa-li fa fa-sliders"></i> <a href="../../../HTWF/pages/features/titles/title-slider-fullscreen.html">Slider full-screen</a></li>
+                                                    <li><i class="fa-li fa fa-sliders"></i> <a href="../../../HTWF/pages/features/titles/title-slider-fullscreen-parallax.html">Slider full-screen parallax</a></li>
+                                                    <li><i class="fa-li fa fa-sliders"></i> <a href="../../../HTWF/pages/features/titles/title-slider-parallax.html">Slider parallax</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="panel">
+                                            <div class="col">
+                                                <h5>Horizontal menus</h5>
+                                                <ul class="fa-ul text-s">
+                                                    <li><i class="fa-li fa fa-list"></i> <a href="../../../HTWF/pages/features/menus/menu-classic.html">Menu classic</a></li>
+                                                    <li><i class="fa-li fa fa-list"></i> <a href="../../../HTWF/pages/features/menus/menu-classic-transparent.html">Menu classic transparent</a></li>
+                                                    <li><i class="fa-li fa fa-list"></i> <a href="../../../HTWF/pages/features/menus/menu-big-logo.html">Menu big logo</a></li>
+                                                    <li><i class="fa-li fa fa-list"></i> <a href="../../../HTWF/pages/features/menus/menu-subline.html">Menu subline</a></li>
+                                                    <li><i class="fa-li fa fa-list"></i> <a href="../../../HTWF/pages/features/menus/menu-subtitle.html">Menu subtitle</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col">
+                                                <h5>Horizontal menus</h5>
+                                                <ul class="fa-ul text-s">
+                                                    <li><i class="fa-li fa fa-list"></i> <a href="../../../HTWF/pages/features/menus/menu-middle-logo.html">Menu middle logo</a></li>
+                                                    <li><i class="fa-li fa fa-list"></i> <a href="../../../HTWF/pages/features/menus/menu-middle-logo-top.html">Menu middle logo top</a></li>
+                                                    <li><i class="fa-li fa fa-list"></i> <a href="../../../HTWF/pages/features/menus/menu-middle-box.html">Menu middle box</a></li>
+                                                    <li><i class="fa-li fa fa-list"></i> <a href="../../../HTWF/pages/features/menus/menu-icons.html">Menu icons</a></li>
+                                                    <li><i class="fa-li fa fa-list"></i> <a href="../../../HTWF/pages/features/menus/menu-icons-top.html">Menu icons top</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col">
+                                                <h5>Side menus</h5>
+                                                <ul class="fa-ul text-s">
+                                                    <li><i class="fa-li fa fa-bars"></i> <a href="../../../HTWF/pages/features/menus/menu-side.html">Side classic</a></li>
+                                                    <li><i class="fa-li fa fa-bars"></i> <a href="../../../HTWF/pages/features/menus/menu-side-lateral.html">Side lateral</a></li>
+                                                    <li><i class="fa-li fa fa-bars"></i> <a href="../../../HTWF/pages/features/menus/menu-side-simple.html">Side simple</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="panel">
+                                            <div class="col">
+                                                <h5>Components</h5>
+                                                <ul class="fa-ul text-s">
+                                                    <li><i class="fa-li fa fa-cubes"></i> <a href="../../../HTWF/pages/features/components/icons.html">Icons</a></li>
+                                                    <li><i class="fa-li fa fa-plus"></i> <a href="../../../HTWF/pages/features/components/counters-countdown.html">Counters</a></li>
+                                                    <li><i class="fa-li fa fa-clock-o"></i> <a href="../../../HTWF/pages/features/components/counters-countdown.html">Countdowns</a></li>
+                                                    <li><i class="fa-li fa fa-tasks"></i> <a href="../../../HTWF/pages/features/components/progress-bars.html">Progress bars</a></li>
+                                                    <li><i class="fa-li fa fa-circle-o"></i> <a href="../../../HTWF/pages/features/components/progress-bars.html">Circle progress bars</a></li>
+                                                    <li><i class="fa-li fa fa-calendar"></i> <a href="../../../HTWF/pages/features/components/timeline.html">Timeline</a></li>
+                                                    <li><i class="fa-li fa fa-map-marker"></i> <a href="../../../HTWF/pages/features/components/maps.html">Google maps</a></li>
+                                                    <li><i class="fa-li fa fa-table"></i> <a href="../../../HTWF/pages/features/components/tables.html">Advanced table</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col">
+                                                <h5>Main components</h5>
+                                                <ul class="fa-ul text-s">
+                                                    <li><i class="fa-li fa fa-cube"></i> <a href="../../../HTWF/pages/features/components/buttons.html">Buttons</a></li>
+                                                    <li><i class="fa-li fa fa-photo"></i> <a href="../../../HTWF/pages/features/components/image-boxes.html">Image boxes</a></li>
+                                                    <li><i class="fa-li fa fa-photo"></i> <a href="../../../HTWF/pages/features/components/image-boxes-advanced.html">Advanced image boxes</a></li>
+                                                    <li><i class="fa-li fa fa-th-large"></i> <a href="../../../HTWF/pages/features/components/content-box.html">Content boxes</a></li>
+                                                    <li><i class="fa-li fa fa-facebook-official"></i> <a href="../../../HTWF/pages/features/components/social-media.html">Social media</a></li>
+                                                    <li><i class="fa-li fa fa-list"></i> <a href="../../../HTWF/pages/features/components/lists.html">Lists</a></li>
+                                                    <li><i class="fa-li fa fa-paragraph"></i> <a href="../../../HTWF/pages/features/components/typography.html">Typography</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col">
+                                                <h5>Footer</h5>
+                                                <ul class="fa-ul text-s">
+                                                    <li><i class="fa-li fa fa-download"></i> <a href="../../../HTWF/pages/features/footers/footer-parallax.html">Footer parallax</a></li>
+                                                    <li><i class="fa-li fa fa-download"></i> <a href="../../../HTWF/pages/features/footers/footer-minimal.html">Footer minimal</a></li>
+                                                    <li><i class="fa-li fa fa-download"></i> <a href="../../../HTWF/pages/features/footers/footer-base.html">Footer base</a></li>
+                                                </ul>
+                                                <hr class="space xs">
+                                                <h5>PHP</h5>
+                                                <ul class="fa-ul text-s">
+                                                    <li><i class="fa-li fa fa-comments-o"></i> <a href="../../../HTWF/pages/features/components/contact-form.html">Contact form</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="panel">
+                                            <div class="col">
+                                                <h5>Lists</h5>
+                                                <ul class="fa-ul text-s">
+                                                    <li><i class="fa-li fa fa-list-ol"></i> <a href="../../../HTWF/pages/features/containers/list-grid.html">Grid</a></li>
+                                                    <li><i class="fa-li fa fa-list-ol"></i> <a href="../../../HTWF/pages/features/containers/list-masonry.html">Masonry</a></li>
+                                                </ul>
+                                                <hr class="space xs">
+                                                <h5>Others</h5>
+                                                <ul class="fa-ul text-s">
+                                                    <li><i class="fa-li fa fa-expand"></i> <a href="../../../HTWF/pages/features/containers/lightbox.html">Lightbox and popups</a></li>
+                                                    <li><i class="fa-li fa fa-sliders"></i> <a href="../../../HTWF/pages/features/containers/sliders.html">Sliders and carousels</a></li>
+                                                    <li><i class="fa-li fa fa-toggle-down"></i> <a href="../../../HTWF/pages/features/containers/scroll-box-collapse.html">Scroll box</a></li>
+                                                    <li><i class="fa-li fa fa-minus"></i> <a href="../../../HTWF/pages/features/containers/scroll-box-collapse.html">Collapse box</a></li>
+                                                    <li><i class="fa-li fa fa-square-o"></i> <a href="../../../HTWF/pages/features/containers/tabs.html">Tabs</a></li>
+                                                    <li><i class="fa-li fa fa-minus-square-o"></i> <a href="../../../HTWF/pages/features/containers/accordions.html">Accordions</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col">
+                                                <h5>Sections</h5>
+                                                <ul class="fa-ul text-s">
+                                                    <li><i class="fa-li fa fa-photo"></i> <a href="../../../HTWF/pages/features/containers/section-background-image.html">Background image</a></li>
+                                                    <li><i class="fa-li fa fa-photo"></i> <a href="../../../HTWF/pages/features/containers/section-background-image-parallax.html">Background parallax</a></li>
+                                                    <li><i class="fa-li fa fa-sliders"></i> <a href="../../../HTWF/pages/features/containers/section-slider.html">Slider</a></li>
+                                                    <li><i class="fa-li fa fa-film"></i> <a href="../../../HTWF/pages/features/containers/section-background-video.html">Background video</a></li>
+                                                    <li><i class="fa-li fa fa-leaf"></i> <a href="../../../HTWF/pages/features/containers/section-animations.html">Background animations</a></li>
+                                                    <li><i class="fa-li fa fa-leaf"></i> <a href="../../../HTWF/pages/features/containers/section-animations-parallax.html">Background animations parallax</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="header-title ken-burn" data-parallax="scroll" data-position="top" data-natural-height="600" data-natural-width="1920" data-image-src="../../images/title-bg.png">
+        <div class="container">
+            <div class="title-base">
+                <hr />
+                <h1>Content box</h1>
+                <p>Features and components of Framework Y</p>
+            </div>
+        </div>
+    </div>
+    <div class="section-empty section-item text-center">
+        <div class="container content">
+            <h5>SIDE IMAGE</h5>
+            <hr class="space m" />
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="advs-box advs-box-side" data-anima="fade-left" data-trigger="hover">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="img-box"><img src="../../images/thumb-wide.png" alt=""></div>
+                            </div>
+                            <div class="col-md-8">
+                                <h3>Stay hungry</h3>
+                                <hr class="anima">
+                                <p>
+                                    Quis nonummy wisi taciti Dictumst sapiente aliquet elementum eveniet loremi.
+                                </p>
+                                <a class="btn btn-sm" href="#">Show item</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="advs-box advs-box-side" data-anima="fade-left" data-trigger="hover">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="img-box"><img src="../../images/thumb-wide.png" alt=""></div>
+                            </div>
+                            <div class="col-md-8">
+                                <h3>Stay foolish</h3>
+                                <hr class="anima">
+                                <p>
+                                    Quis nonummy wisi taciti Dictumst sapiente aliquet elementum eveniet loremi.
+                                </p>
+                                <a class="btn btn-sm" href="#">Show item</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="space s" />
+            <hr />
+            <hr class="space s" />
+            <h5>TOP IMAGE</h5>
+            <hr class="space m" />
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="advs-box advs-box-top-icon-img boxed-inverse">
+                        <a class="img-box img-scale-up" href="#">
+                            <span><img src="../../images/thumb-wide.png" alt=""></span>
+                        </a>
+                        <div class="advs-box-content">
+                            <h3>Stay hungry</h3>
+                            <p>
+                                Lorem ipsum dolor sitamet consectetur adipisicing elito sed do eiusmod incididunt
+                                ut labore etaliqua ...
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="advs-box advs-box-top-icon-img boxed-inverse">
+                        <a class="img-box img-scale-up" href="#">
+                            <span><img src="../../images/thumb-wide.png" alt=""></span>
+                        </a>
+                        <div class="advs-box-content">
+                            <h3>Stay foolish</h3>
+                            <p>
+                                Lorem ipsum dolor sitamet consectetur adipisicing elito sed do eiusmod incididunt
+                                ut labore etaliqua ...
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="advs-box advs-box-top-icon-img boxed-inverse">
+                        <a class="img-box img-scale-up" href="#">
+                            <span><img src="../../images/thumb-wide.png" alt=""></span>
+                        </a>
+                        <div class="advs-box-content">
+                            <h3>Be happy</h3>
+                            <p>
+                                Lorem ipsum dolor sitamet consectetur adipisicing elito sed do eiusmod incididunt
+                                ut labore etaliqua ...
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="space m" />
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="advs-box advs-box-top-icon-img boxed" data-anima="scale-rotate" data-trigger="hover">
+                        <i class="fa fa-bank icon anima-scale-up anima"></i>
+                        <a class="img-box img-scale-up" href="#">
+                            <span><img src="../../images/thumb-wide.png" alt=""></span>
+                        </a>
+                        <div class="advs-box-content">
+                            <h3>Stay hungry</h3>
+                            <p>
+                                Deserunt adipisci sapien magnis ea nunc placerat fames proin placerat aptent ultricies condimentum rerum perferendis, luctus.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="advs-box advs-box-top-icon-img boxed" data-anima="scale-rotate" data-trigger="hover">
+                        <i class="fa fa-gavel icon anima-scale-up anima"></i>
+                        <a class="img-box img-scale-up" href="#">
+                            <span><img src="../../images/thumb-wide.png" alt=""></span>
+                        </a>
+                        <div class="advs-box-content">
+                            <h3>Stay foolish</h3>
+                            <p>
+                                Deserunt adipisci sapien magnis ea nunc placerat fames proin placerat aptent ultricies condimentum rerum perferendis, luctus.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="advs-box advs-box-top-icon-img boxed" data-anima="scale-rotate" data-trigger="hover">
+                        <i class="fa fa-h-square icon anima-scale-up anima"></i>
+                        <a class="img-box img-scale-up" href="#">
+                            <span><img src="../../images/thumb-wide.png" alt=""></span>
+                        </a>
+                        <div class="advs-box-content">
+                            <h3>Be happy</h3>
+                            <p>
+                                Deserunt adipisci sapien magnis ea nunc placerat fames proin placerat aptent ultricies condimentum rerum perferendis, luctus.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="space s" />
+            <hr />
+            <hr class="space s" />
+            <h5>TOP ICON</h5>
+            <hr class="space m" />
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="advs-box advs-box-top-icon" data-anima="rotate-20" data-trigger="hover">
+                        <i class="fa fa-hand-o-left anima icon text-xl"></i>
+                        <h3>Stay hungry</h3>
+                        <p>
+                            Euismod beatae mollit hymenaeos pharetra senectus perspiciatis esse nostra quama riatur pariaturorci quibusdam animi.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="advs-box advs-box-top-icon" data-anima="rotate-20" data-trigger="hover">
+                        <i class="fa fa-facebook-square anima icon text-xl"></i>
+                        <h3>Stay foolish</h3>
+                        <p>
+                            Euismod beatae mollit hymenaeos pharetra senectus perspiciatis esse nostra quama riatur pariaturorci quibusdam animi.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="advs-box advs-box-top-icon" data-anima="rotate-20" data-trigger="hover">
+                        <i class="fa fa-ge anima icon text-xl"></i>
+                        <h3>Be happy</h3>
+                        <p>
+                            Euismod beatae mollit hymenaeos pharetra senectus perspiciatis esse nostra quama riatur pariaturorci quibusdam animi.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <hr class="space m" />
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="advs-box advs-box-top-icon boxed" data-anima="rotate-20" data-trigger="hover">
+                        <i class="fa fa-file-text icon circle anima"></i>
+                        <h3>Stay hungry</h3>
+                        <p>
+                            Euismod beatae mollit hymenaeos pharetra senectus perspiciatis esse nostra quama riatur pariaturorci quibusdam animi.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="advs-box advs-box-top-icon boxed" data-anima="rotate-20" data-trigger="hover">
+                        <i class="fa fa-globe icon circle anima"></i>
+                        <h3>Stay foolish</h3>
+                        <p>
+                            Euismod beatae mollit hymenaeos pharetra senectus perspiciatis esse nostra quama riatur pariaturorci quibusdam animi.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="advs-box advs-box-top-icon boxed" data-anima="rotate-20" data-trigger="hover">
+                        <i class="fa fa-google-wallet icon circle anima"></i>
+                        <h3>Be happy</h3>
+                        <p>
+                            Euismod beatae mollit hymenaeos pharetra senectus perspiciatis esse nostra quama riatur pariaturorci quibusdam animi.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <hr class="space m" />
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="advs-box advs-box-top-icon boxed-inverse" data-anima="rotate-20" data-trigger="hover">
+                        <i class="fa fa-gamepad icon circle anima"></i>
+                        <h3>Stay hungry</h3>
+                        <p>
+                            Euismod beatae mollit hymenaeos pharetra senectus perspiciatis esse nostra quama riatur pariaturorci quibusdam animi.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="advs-box advs-box-top-icon boxed-inverse" data-anima="rotate-20" data-trigger="hover">
+                        <i class="fa fa-film icon circle anima"></i>
+                        <h3>Stay foolish</h3>
+                        <p>
+                            Euismod beatae mollit hymenaeos pharetra senectus perspiciatis esse nostra quama riatur pariaturorci quibusdam animi.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="advs-box advs-box-top-icon boxed-inverse" data-anima="rotate-20" data-trigger="hover">
+                        <i class="fa fa-google icon circle anima"></i>
+                        <h3>Be happy</h3>
+                        <p>
+                            Euismod beatae mollit hymenaeos pharetra senectus perspiciatis esse nostra quama riatur pariaturorci quibusdam animi.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <hr class="space s" />
+            <hr />
+            <hr class="space s" />
+            <h5>SIDE ICON</h5>
+            <hr class="space m" />
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="advs-box advs-box-side-icon" data-anima="pulse-fast" data-trigger="hover">
+                        <div class="icon-box">
+                            <i class="anima icon fa fa-archive text-xl"></i>
+                        </div>
+                        <div class="caption-box">
+                            <h3>Stay hungry</h3>
+                            <p>
+                                Euismod beatae mollit hymenaeos pharetra senectus perspiciatis esse nostra quama riatur pariaturorci quibusdam animi.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="advs-box advs-box-side-icon" data-anima="pulse-fast" data-trigger="hover">
+                        <div class="icon-box">
+                            <i class="anima icon fa fa-bell text-xl"></i>
+                        </div>
+                        <div class="caption-box">
+                            <h3>Stay foolish</h3>
+                            <p>
+                                Euismod beatae mollit hymenaeos pharetra senectus perspiciatis esse nostra quama riatur pariaturorci quibusdam animi.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="advs-box advs-box-side-icon" data-anima="pulse-fast" data-trigger="hover">
+                        <div class="icon-box">
+                            <i class="anima icon fa fa-gbp text-xl"></i>
+                        </div>
+                        <div class="caption-box">
+                            <h3>Be curoius</h3>
+                            <p>
+                                Euismod beatae mollit hymenaeos pharetra senectus perspiciatis esse nostra quama riatur pariaturorci quibusdam animi.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="space m" />
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="advs-box advs-box-side-icon boxed-inverse" data-anima="pulse-fast" data-trigger="hover">
+                        <div class="icon-box">
+                            <i class="anima icon fa fa-beer text-xl"></i>
+                        </div>
+                        <div class="caption-box">
+                            <h3>Stay hungry</h3>
+                            <p>
+                                Euismod beatae mollit hymenaeos pharetra senectus perspiciatis esse nostra quama riatur pariaturorci quibusdam animi.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="advs-box advs-box-side-icon boxed-inverse" data-anima="pulse-fast" data-trigger="hover">
+                        <div class="icon-box">
+                            <i class="anima icon fa fa-android text-xl"></i>
+                        </div>
+                        <div class="caption-box">
+                            <h3>Stay foolish</h3>
+                            <p>
+                                Euismod beatae mollit hymenaeos pharetra senectus perspiciatis esse nostra quama riatur pariaturorci quibusdam animi.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="advs-box advs-box-side-icon boxed" data-anima="pulse-fast" data-trigger="hover">
+                        <div class="icon-box">
+                            <i class="anima icon fa fa-angellist text-xl"></i>
+                        </div>
+                        <div class="caption-box">
+                            <h3>Be happy</h3>
+                            <p>
+                                Euismod beatae mollit hymenaeos pharetra senectus perspiciatis esse nostra quama riatur pariaturorci quibusdam animi.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="space s" />
+            <hr />
+            <hr class="space s" />
+            <h5>MULTIPLE BOX</h5>
+            <hr class="space m" />
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="advs-box advs-box-multiple boxed-inverse" data-anima="scale-rotate" data-trigger="hover">
+                        <a class="img-box"><img class="anima" src="../../images/thumb-wide.png" alt="" /> </a>
+                        <div class="circle anima-rotate-20 anima"><i class="fa fa-automobile"></i></div>
+                        <div class="advs-box-content">
+                            <h3>Stay hungry</h3>
+                            <p>
+                                Sed. Hic iaculis ullamco platea molestiae, tincidunt minima aperiam vivamus, sollicitudin ante morbi aliqua? Fermentum lacus.
+                            </p>
+                            <a class="btn btn-sm" href="about.html">Enter now </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="advs-box advs-box-multiple boxed-inverse" data-anima="scale-rotate" data-trigger="hover">
+                        <a class="img-box"><img class="anima" src="../../images/thumb-wide.png" alt="" /> </a>
+                        <div class="circle anima-rotate-20 anima"><i class="fa fa-bitcoin"></i></div>
+                        <div class="advs-box-content">
+                            <h3>Stay foolish</h3>
+                            <p>
+                                Sed. Hic iaculis ullamco platea molestiae, tincidunt minima aperiam vivamus, sollicitudin ante morbi aliqua? Fermentum lacus.
+                            </p>
+                            <a class="btn btn-sm" href="about.html">Enter now </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="advs-box advs-box-multiple boxed" data-anima="scale-rotate" data-trigger="hover">
+                        <a class="img-box"><img class="anima" src="../../images/thumb-wide.png" alt="" /> </a>
+                        <div class="circle anima-rotate-20 anima"><i class="fa fa-beer"></i></div>
+                        <div class="advs-box-content">
+                            <h3>Be happy</h3>
+                            <p>
+                                Sed. Hic iaculis ullamco platea molestiae, tincidunt minima aperiam vivamus, sollicitudin ante morbi aliqua? Fermentum lacus.
+                            </p>
+                            <a class="btn btn-sm" href="about.html">Enter now </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="space s" />
+            <hr />
+            <hr class="space s" />
+            <h5>BLOG BOX</h5>
+            <hr class="space m" />
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="advs-box advs-box-side-img advs-box-blog boxed-inverse" data-anima="scale-rotate" data-trigger="hover">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a class="img-box">
+                                    <img class="anima" src="../../images/thumb-wide.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="col-md-8">
+                                <h2><a>Stay hungry</a></h2>
+                                <hr>
+                                <div class="tag-row icon-row">
+                                    <span><i class="fa fa-calendar"></i><a>26.05.2015</a></span>
+                                    <span><i class="fa fa-bookmark"></i><a href="#">Category</a></span>
+                                    <span><i class="fa fa-pencil"></i><a>Admin</a></span>
+                                </div>
+                                <p>
+                                    Culpa. Sapiente inceptos facilisi, molestiae veritatis expedita gravida deserunt, augue consectetuer delectus! Molestias? Illum quas deleniti
+                                </p>
+                                <a class="btn btn-sm" href="#">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="space s" />
+                    <div class="advs-box advs-box-side-img advs-box-blog boxed" data-anima="scale-rotate" data-trigger="hover">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <a class="img-box">
+                                    <img class="anima" src="../../images/thumb-wide.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="col-md-8">
+                                <h2><a>Stay foolish</a></h2>
+                                <hr>
+                                <div class="tag-row icon-row">
+                                    <span><i class="fa fa-calendar"></i><a>26.05.2015</a></span>
+                                    <span><i class="fa fa-bookmark"></i><a href="#">Category</a></span>
+                                    <span><i class="fa fa-pencil"></i><a>Admin</a></span>
+                                </div>
+                                <p>
+                                    Culpa. Sapiente inceptos facilisi, molestiae veritatis expedita gravida deserunt, augue consectetuer delectus! Molestias? Illum quas deleniti
+                                </p>
+                                <a class="btn btn-sm " href="#"> Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="space s" />
+            <hr />
+            <hr class="space s" />
+            <h5>BLOG BOX 2</h5>
+            <hr class="space m" />
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="advs-box advs-box-top-icon-img niche-box-post boxed-inverse" data-anima="scale-rotate" data-trigger="hover">
+                        <div class="block-infos">
+                            <div class="block-data">
+                                <p class="bd-day">25</p>
+                                <p class="bd-month">July 2018</p>
+                            </div>
+                            <a class="block-comment" href="#">2 <i class="fa fa-comment-o"></i></a>
+                        </div>
+                        <a class="img-box"><img class="anima" src="../../images/thumb-wide.png" alt="" /> </a>
+                        <div class="advs-box-content">
+                            <h2><a href="#">Stay hungry</a></h2>
+                            <div class="tag-row">
+                                <span><i class="fa fa-bookmark"></i> <a href="#">Travel</a></span>
+                                <span><i class="fa fa-pencil"></i><a>Admin</a></span>
+                            </div>
+                            <p class="niche-box-content">
+                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                            <a class="btn btn-sm" href="#">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="advs-box advs-box-top-icon-img niche-box-post boxed-inverse" data-anima="scale-rotate" data-trigger="hover">
+                        <div class="block-infos">
+                            <div class="block-data">
+                                <p class="bd-day">25</p>
+                                <p class="bd-month">July 2018</p>
+                            </div>
+                            <a class="block-comment" href="#">2 <i class="fa fa-comment-o"></i></a>
+                        </div>
+                        <a class="img-box"><img class="anima" src="../../images/thumb-wide.png" alt="" /> </a>
+                        <div class="advs-box-content">
+                            <h2><a href="#">Stay foolish</a></h2>
+                            <div class="tag-row">
+                                <span><i class="fa fa-bookmark"></i> <a href="#">Travel</a></span>
+                                <span><i class="fa fa-pencil"></i><a>Admin</a></span>
+                            </div>
+                            <p class="niche-box-content">
+                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                            <a class="btn btn-sm" href="#">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="advs-box advs-box-top-icon-img niche-box-post boxed-inverse" data-anima="scale-rotate" data-trigger="hover">
+                        <div class="block-infos">
+                            <div class="block-data">
+                                <p class="bd-day">25</p>
+                                <p class="bd-month">July 2018</p>
+                            </div>
+                            <a class="block-comment" href="#">2 <i class="fa fa-comment-o"></i></a>
+                        </div>
+                        <a class="img-box"><img class="anima" src="../../images/thumb-wide.png" alt="" /> </a>
+                        <div class="advs-box-content">
+                            <h2><a href="#">Be happy</a></h2>
+                            <div class="tag-row">
+                                <span><i class="fa fa-bookmark"></i> <a href="#">Travel</a></span>
+                                <span><i class="fa fa-pencil"></i><a>Admin</a></span>
+                            </div>
+                            <p class="niche-box-content">
+                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                            <a class="btn btn-sm" href="#">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="space m" />
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="advs-box advs-box-top-icon-img niche-box-post boxed" data-anima="scale-rotate" data-trigger="hover">
+                        <div class="block-infos">
+                            <div class="block-data">
+                                <p class="bd-day">25</p>
+                                <p class="bd-month">July 2018</p>
+                            </div>
+                            <a class="block-comment" href="#">2 <i class="fa fa-comment-o"></i></a>
+                        </div>
+                        <a class="img-box"><img class="anima" src="../../images/thumb-wide.png" alt="" /> </a>
+                        <div class="advs-box-content">
+                            <h2><a href="#">Stay hungry</a></h2>
+                            <div class="tag-row">
+                                <span><i class="fa fa-bookmark"></i> <a href="#">Travel</a></span>
+                                <span><i class="fa fa-pencil"></i><a>Admin</a></span>
+                            </div>
+                            <p class="niche-box-content">
+                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                            <a class="btn btn-sm" href="#">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="advs-box advs-box-top-icon-img niche-box-post boxed" data-anima="scale-rotate" data-trigger="hover">
+                        <div class="block-infos">
+                            <div class="block-data">
+                                <p class="bd-day">25</p>
+                                <p class="bd-month">July 2018</p>
+                            </div>
+                            <a class="block-comment" href="#">2 <i class="fa fa-comment-o"></i></a>
+                        </div>
+                        <a class="img-box"><img class="anima" src="../../images/thumb-wide.png" alt="" /> </a>
+                        <div class="advs-box-content">
+                            <h2><a href="#">Stay foolish</a></h2>
+                            <div class="tag-row">
+                                <span><i class="fa fa-bookmark"></i> <a href="#">Travel</a></span>
+                                <span><i class="fa fa-pencil"></i><a>Admin</a></span>
+                            </div>
+                            <p class="niche-box-content">
+                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                            <a class="btn btn-sm" href="#">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="advs-box advs-box-top-icon-img niche-box-post boxed" data-anima="scale-rotate" data-trigger="hover">
+                        <div class="block-infos">
+                            <div class="block-data">
+                                <p class="bd-day">25</p>
+                                <p class="bd-month">July 2018</p>
+                            </div>
+                            <a class="block-comment" href="#">2 <i class="fa fa-comment-o"></i></a>
+                        </div>
+                        <a class="img-box"><img class="anima" src="../../images/thumb-wide.png" alt="" /> </a>
+                        <div class="advs-box-content">
+                            <h2><a href="#">Be happy</a></h2>
+                            <div class="tag-row">
+                                <span><i class="fa fa-bookmark"></i> <a href="#">Travel</a></span>
+                                <span><i class="fa fa-pencil"></i><a>Admin</a></span>
+                            </div>
+                            <p class="niche-box-content">
+                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                            <a class="btn btn-sm" href="#">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="space s" />
+            <hr />
+            <hr class="space s" />
+            <h5>BLOG BOX 3</h5>
+            <hr class="space m" />
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="advs-box niche-box-blog">
+                        <div class="block-top">
+                            <div class="block-infos">
+                                <div class="block-data">
+                                    <p class="bd-day">25</p>
+                                    <p class="bd-month">July 2018</p>
+                                </div>
+                                <a class="block-comment" href="#">2 <i class="fa fa-comment-o"></i></a>
+                            </div>
+                            <div class="block-title">
+                                <h2><a href="#">Stay hungry</a></h2>
+                                <div class="tag-row">
+                                    <span><i class="fa fa-pencil"></i><a>Admin</a></span>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="img-box img-scale-up" href="#">
+                            <img src="../../images/thumb-wide.png" alt="">
+                        </a>
+                        <p class="excerpt">
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                        <a class="btn btn-sm" href="#">Read more</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="advs-box niche-box-blog">
+                        <div class="block-top">
+                            <div class="block-infos">
+                                <div class="block-data">
+                                    <p class="bd-day">25</p>
+                                    <p class="bd-month">July 2018</p>
+                                </div>
+                                <a class="block-comment" href="#">2 <i class="fa fa-comment-o"></i></a>
+                            </div>
+                            <div class="block-title">
+                                <h2><a href="#">Stay foolish</a></h2>
+                                <div class="tag-row">
+                                    <span><i class="fa fa-pencil"></i><a>Admin</a></span>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="img-box img-scale-up" href="#">
+                            <img src="../../images/thumb-wide.png" alt="">
+                        </a>
+                        <p class="excerpt">
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                        <a class="btn btn-sm" href="#">Read more</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="advs-box niche-box-blog">
+                        <div class="block-top">
+                            <div class="block-infos">
+                                <div class="block-data">
+                                    <p class="bd-day">25</p>
+                                    <p class="bd-month">July 2018</p>
+                                </div>
+                                <a class="block-comment" href="#">2 <i class="fa fa-comment-o"></i></a>
+                            </div>
+                            <div class="block-title">
+                                <h2><a href="#">Be happy</a></h2>
+                                <div class="tag-row">
+                                    <span><i class="fa fa-pencil"></i><a>Admin</a></span>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="img-box img-scale-up" href="#">
+                            <img src="../../images/thumb-wide.png" alt="">
+                        </a>
+                        <p class="excerpt">
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                        <a class="btn btn-sm" href="#">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <hr class="space s" />
+            <hr />
+            <hr class="space s" />
+            <h5>TESTIMONIALS</h5>
+            <hr class="space m" />
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="advs-box advs-box-top-icon niche-box-testimonails">
+                        <i class="fa text-xl circle onlycover" style="background-image:url('../../images/thumb.png')"></i>
+                        <p>
+                            Etiam feugiat. Libero tincidunt, ac magni porttitor fugit laboriosam sed, condimentum tellus. Diam, quas laboriosam, quisque porta praesentium.
+                        </p>
+                        <h5>Mary Groot <span>Google</span></h5>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="advs-box advs-box-top-icon niche-box-testimonails">
+                        <i class="fa text-xl circle onlycover" style="background-image:url('../../images/thumb.png')"></i>
+                        <p>
+                            Etiam feugiat. Libero tincidunt, ac magni porttitor fugit laboriosam sed, condimentum tellus. Diam, quas laboriosam, quisque porta praesentium.
+                        </p>
+                        <h5>Luca Dalla Cort <span>Fintech</span></h5>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="advs-box advs-box-top-icon niche-box-testimonails">
+                        <i class="fa text-xl circle onlycover" style="background-image:url('../../images/thumb.png')"></i>
+                        <p>
+                            Etiam feugiat. Libero tincidunt, ac magni porttitor fugit laboriosam sed, condimentum tellus. Diam, quas laboriosam, quisque porta praesentium.
+                        </p>
+                        <h5>Elisa Elsa <span>Telwin</span></h5>
+                    </div>
+                </div>
+            </div>
+            <hr class="space s" />
+            <hr />
+            <hr class="space s" />
+            <h5>TESTIMONIALS 2</h5>
+            <hr class="space m" />
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="advs-box niche-box-testimonails-cloud">
+                        <p>
+                            Etiam feugiat. Libero tincidunt, ac magni porttitor fugit laboriosam sed, condimentum tellus. Diam, quas laboriosam, quisque porta praesentium.
+                        </p>
+                        <div class="name-box vertical-row">
+                            <i class="vertical-col fa text-l circle onlycover" style="background-image:url('../../images/thumb.png')"></i>
+                            <h5 class="vertical-col subtitle">Federico Schiocchet<span class="subtxt">Marketing expert</span></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="advs-box niche-box-testimonails-cloud">
+                        <p>
+                            Etiam feugiat. Libero tincidunt, ac magni porttitor fugit laboriosam sed, condimentum tellus. Diam, quas laboriosam, quisque porta praesentium.
+                        </p>
+                        <div class="name-box vertical-row">
+                            <i class="vertical-col fa text-l circle onlycover" style="background-image:url('../../images/thumb.png')"></i>
+                            <h5 class="vertical-col subtitle">David Patrick<span class="subtxt">Web developer</span></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="advs-box niche-box-testimonails-cloud">
+                        <p>
+                            Etiam feugiat. Libero tincidunt, ac magni porttitor fugit laboriosam sed, condimentum tellus. Diam, quas laboriosam, quisque porta praesentium.
+                        </p>
+                        <div class="name-box vertical-row">
+                            <i class="vertical-col fa text-l circle onlycover" style="background-image:url('../../images/thumb.png')"></i>
+                            <h5 class="vertical-col subtitle">Tua madre<span class="subtxt">Tuo padre</span></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="space s" />
+            <hr />
+            <hr class="space s" />
+            <h5>TEAM</h5>
+            <hr class="space m" />
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
+                        <a class="img-box">
+                            <img class="anima" src="../../images/thumb.png" alt="" />
+                        </a>
+                        <div class="content-box">
+                            <h2>Jack Stone</h2>
+                            <h4>FOUNDER AND CEO</h4>
+                            <hr class="e" />
+                            <div class="btn-group social-group">
+                                <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+                                <a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
+                                <a target="_blank" href="#"><i class="fa fa-instagram"></i></a>
+                            </div>
+                            <p>Lorem ipsum is simply dummy text of the printing and industry. Lorem has been the industry.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
+                        <a class="img-box">
+                            <img class="anima" src="../../images/thumb.png" alt="" />
+                        </a>
+                        <div class="content-box">
+                            <h2>Oliver Andrew</h2>
+                            <h4>COLLABORATOR</h4>
+                            <hr class="e" />
+                            <div class="btn-group social-group">
+                                <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+                                <a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
+                                <a target="_blank" href="#"><i class="fa fa-instagram"></i></a>
+                            </div>
+                            <p>Lorem ipsum is simply dummy text of the printing and industry. Lorem has been the industry.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="advs-box niche-box-team" data-anima="scale-up" data-trigger="hover">
+                        <a class="img-box">
+                            <img class="anima" src="../../images/thumb.png" alt="" />
+                        </a>
+                        <div class="content-box">
+                            <h2>Alex Franz</h2>
+                            <h4>MARKETING</h4>
+                            <hr class="e" />
+                            <div class="btn-group social-group">
+                                <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+                                <a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
+                                <a target="_blank" href="#"><i class="fa fa-instagram"></i></a>
+                            </div>
+                            <p>Lorem ipsum is simply dummy text of the printing and industry. Lorem has been the industry.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="space s" />
+            <hr />
+            <hr class="space s" />
+            <h5>PRICING TABLE</h5>
+            <hr class="space m" />
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="list-group pricing-table">
+                        <div class="list-group-item pricing-price">
+                            20 <span>$</span>
+                        </div>
+                        <div class="list-group-item pricing-name">
+                            <h3>
+                                JUST CHECKING
+                            </h3>
+                        </div>
+                        <div class="list-group-item">
+                            General contracting
+                        </div>
+                        <div class="list-group-item">
+                            Pre-Framework Y services
+                        </div>
+                        <div class="list-group-item">
+                            Framework Y consulting
+                        </div>
+                        <div class="list-group-item">
+                            Design-build
+                        </div>
+                        <div class="list-group-item">
+                            24/7 support
+                        </div>
+                        <div class="list-group-item">
+                            <a class="btn btn-sm btn-default" href="#"> Order now </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="list-group pricing-table pricing-table-big">
+                        <div class="list-group-item pricing-price">
+                            85 <span>$</span>
+                        </div>
+                        <div class="list-group-item pricing-name">
+                            <h3>PLUS PLAN</h3>
+                        </div>
+                        <div class="list-group-item">
+                            General contracting
+                        </div>
+                        <div class="list-group-item">
+                            Pre-Framework Y services
+                        </div>
+                        <div class="list-group-item">
+                            businesss
+                        </div>
+                        <div class="list-group-item">
+                            Design-build
+                        </div>
+                        <div class="list-group-item">
+                            24/7 support
+                        </div>
+                        <div class="list-group-item">
+                            <a class="btn btn-sm btn-default" href="#"> Order now </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="list-group pricing-table">
+                        <div class="list-group-item pricing-price">
+                            200 <span>$</span>
+                        </div>
+                        <div class="list-group-item pricing-name">
+                            <h3>ADD INSURANCE</h3>
+                        </div>
+                        <div class="list-group-item">
+                            General contracting
+                        </div>
+                        <div class="list-group-item">
+                            Pre-Framework Y services
+                        </div>
+                        <div class="list-group-item">
+                            Framework Y consulting
+                        </div>
+                        <div class="list-group-item">
+                            Metal roofing
+                        </div>
+                        <div class="list-group-item">
+                            24/7 support
+                        </div>
+                        <div class="list-group-item">
+                            <a class="btn btn-sm btn-default" href="#"> Order now </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="space s" />
+            <hr />
+            <hr class="space s" />
+            <h5>CALL TO ACTION</h5>
+            <hr class="space m" />
+            <div class="advs-box call-action-box vertical-row white">
+                <div class="col-md-1">
+                    <i class="fa fa-bank action-icon"></i>
+                </div>
+                <div class="col-md-8">
+                    <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                <div class="col-md-3">
+                    <a class="btn btn-sm" href="#">GET A QUOTE </a>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer-center">
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <p class="footer-main">
+                        Template with examples for Html website framework.
+                        <br />
+                        schiocco.io | framework-y.com
+                    </p>
+                </div>
+            </div>
+        </div>
+        <link rel="stylesheet" href="../../../HTWF/scripts/font-awesome/css/font-awesome.min.css">
+        <script src='../../../HTWF/scripts/imagesloaded.min.js'></script>
+        <script src="../../../HTWF/scripts/bootstrap/js/bootstrap.min.js"></script>
+        <script src='../../../HTWF/scripts/jquery.tab-accordion.js'></script>
+        <script src='../../../HTWF/scripts/parallax.min.js'></script>
+        <link rel="stylesheet" href='../../../HTWF/css/animations.css'>
+    </footer>
+</body>
+</html>
